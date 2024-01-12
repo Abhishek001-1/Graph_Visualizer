@@ -16,14 +16,14 @@ DARK_BUTTON = (65, 53, 67)
 
 
 bfs_string = ["Breadth First Search", "Weighted: No", "Guarantees shortest path: Yes", "Worst time complexity: "
-                                                                                       "O(b^d)", "Worst space "
+                                                                                       "O(b*d)", "Worst space "
                                                                                                  "complexity: O("
-                                                                                                 "b^d)"]
-dfs_string = ["Depth First Search", "Weighted: No", "Guarantees shortest path: No", "Time complexity: O(b^d)",
-              "Spacial complexity: O(b*d)"]
+                                                                                                 "b*d)"]
+dfs_string = ["Depth First Search", "Weighted: No", "Guarantees shortest path: No", "Time complexity: O(b*d)",
+              "Spacial complexity: O(b*d+d)"]
 
 dijkstra_string = ["Dijkstra Pathfinding Algorithm", "Weighted: Yes", "Guarantees shortest path: Yes",
-                   "Time complexity: O(E*logV)", "Spacial complexity: O(E*logV)"]
+                   "Time complexity: O(E*logV)", "Spacial complexity: O((E+V)*logV)"]
 
 
 time_string = [""]
